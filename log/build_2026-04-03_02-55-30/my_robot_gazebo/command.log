@@ -1,0 +1,4 @@
+Invoking command in '/home/nman/owl_project_ws/build/my_robot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nman/owl_project_ws/build/my_robot_gazebo -- -j24 -l24
+Invoked command in '/home/nman/owl_project_ws/build/my_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nman/owl_project_ws/build/my_robot_gazebo -- -j24 -l24
+Invoking command in '/home/nman/owl_project_ws/build/my_robot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nman/owl_project_ws/build/my_robot_gazebo
+Invoked command in '/home/nman/owl_project_ws/build/my_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nman/owl_project_ws/build/my_robot_gazebo
