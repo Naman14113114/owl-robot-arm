@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(my_robot_description)
+project(my_robot_bringup)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -23,11 +23,7 @@ endif()
 
 # Install directories
 install(
-  DIRECTORY urdf
   DIRECTORY launch
-  DIRECTORY meshes
-  DIRECTORY config
-  DIRECTORY rviz
   DESTINATION share/${PROJECT_NAME}
 )
 

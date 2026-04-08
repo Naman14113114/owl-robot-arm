@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<robot name="rv5as_so-assy_model_asm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find rv5as_so-assy_model_asm_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find rv5as_so-assy_model_asm_description)/urdf/rv5as_so-assy_model_asm.ros2control.xml" />
+<xacro:include filename="$(find rv5as_so-assy_model_asm_description)/urdf/rv5as_so-assy_model_asm.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.04193492732793794 -0.025801033399371037 0.025780851352072816" rpy="0 0 0"/>
+    <mass value="44.57854074603627"/>
+    <inertia ixx="0.183167" iyy="0.31138" izz="0.308937" ixy="0.014262" iyz="0.002097" ixz="0.004808"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RV5AS_J6_INTERFACE_1">
+  <inertial>
+    <origin xyz="0.006905978768548482 -1.6300782513731238e-07 0.00016622283485434597" rpy="0 0 0"/>
+    <mass value="0.5076989572815161"/>
+    <inertia ixx="0.000369" iyy="0.000193" izz="0.000196" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.689809 0.018798 -0.609303" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J6_INTERFACE_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.689809 0.018798 -0.609303" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J6_INTERFACE_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RV5AS_J5_WRIST_MODEL_1">
+  <inertial>
+    <origin xyz="0.014479812581743357 0.05179027280313545 -0.001806558647586165" rpy="0 0 0"/>
+    <mass value="11.967157567611743"/>
+    <inertia ixx="0.02046" iyy="0.032247" izz="0.031083" ixy="-0.000209" iyz="1.2e-05" ixz="0.001214"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.583809 0.071798 -0.609303" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J5_WRIST_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.583809 0.071798 -0.609303" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J5_WRIST_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RV5AS_J4_NO2ARM_MODEL_1">
+  <inertial>
+    <origin xyz="0.15711148103133402 0.0013040246051381106 -0.0006263390969690752" rpy="0 0 0"/>
+    <mass value="44.10461061203024"/>
+    <inertia ixx="0.156504" iyy="0.502164" izz="0.547798" ixy="-0.010242" iyz="-6.9e-05" ixz="-0.000508"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.239588 0.020298 -0.612556" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J4_NO2ARM_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.239588 0.020298 -0.612556" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J4_NO2ARM_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RV5AS_J3_ELBOW_MODEL_1">
+  <inertial>
+    <origin xyz="0.04744736468726621 -0.09056179372334217 -0.0024092790206754477" rpy="0 0 0"/>
+    <mass value="37.70192536503796"/>
+    <inertia ixx="0.146998" iyy="0.182219" izz="0.213997" ixy="0.008908" iyz="0.00227" ixz="0.004558"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.082089 -0.073786 -0.608464" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J3_ELBOW_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.082089 -0.073786 -0.608464" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J3_ELBOW_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RV5AS_J2_NO1ARM_MODEL_1">
+  <inertial>
+    <origin xyz="1.9750651894523408e-07 0.05757382997503861 0.2050003219127163" rpy="0 0 0"/>
+    <mass value="40.15203942940935"/>
+    <inertia ixx="1.065848" iyy="1.077982" izz="0.074735" ixy="-0.0" iyz="0.0" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.082089 -0.073786 -0.198464" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J2_NO1ARM_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.082089 -0.073786 -0.198464" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J2_NO1ARM_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RV5AS_J1_SHOULDER_MODEL_1">
+  <inertial>
+    <origin xyz="-0.017826012415219042 0.003580767806865783 0.07712681133416387" rpy="0 0 0"/>
+    <mass value="30.517792236378934"/>
+    <inertia ixx="0.122627" iyy="0.10972" izz="0.138699" ixy="-0.003265" iyz="0.002156" ixz="0.003964"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.082093 0.017714 -0.115468" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J1_SHOULDER_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.082093 0.017714 -0.115468" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rv5as_so-assy_model_asm_description)/meshes/RV5AS_J1_SHOULDER_MODEL_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 1" type="continuous">
+  <origin xyz="0.106 0.053 0.0" rpy="0 0 0"/>
+  <parent link="RV5AS_J5_WRIST_MODEL_1"/>
+  <child link="RV5AS_J6_INTERFACE_1"/>
+  <axis xyz="1.0 -0.0 0.0"/>
+</joint>
+
+<joint name="Revolute 2" type="continuous">
+  <origin xyz="0.344221 -0.0515 -0.003253" rpy="0 0 0"/>
+  <parent link="RV5AS_J4_NO2ARM_MODEL_1"/>
+  <child link="RV5AS_J5_WRIST_MODEL_1"/>
+  <axis xyz="0.0 1.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 3" type="continuous">
+  <origin xyz="0.157499 -0.094084 0.004092" rpy="0 0 0"/>
+  <parent link="RV5AS_J3_ELBOW_MODEL_1"/>
+  <child link="RV5AS_J4_NO2ARM_MODEL_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Revolute 4" type="continuous">
+  <origin xyz="0.0 0.0 0.41" rpy="0 0 0"/>
+  <parent link="RV5AS_J2_NO1ARM_MODEL_1"/>
+  <child link="RV5AS_J3_ELBOW_MODEL_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 5" type="continuous">
+  <origin xyz="-4e-06 0.0915 0.082996" rpy="0 0 0"/>
+  <parent link="RV5AS_J1_SHOULDER_MODEL_1"/>
+  <child link="RV5AS_J2_NO1ARM_MODEL_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 6" type="continuous">
+  <origin xyz="0.082093 -0.017714 0.115468" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="RV5AS_J1_SHOULDER_MODEL_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+</robot>
