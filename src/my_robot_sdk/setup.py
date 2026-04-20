@@ -24,6 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'test_move = my_robot_sdk.test_move:main',
+            'test_moveit = my_robot_sdk.test_moveit:main',
+            'task_demo = my_robot_sdk.task_demo:main',
         ],
     },
 )
