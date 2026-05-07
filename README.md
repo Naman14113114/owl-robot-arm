@@ -141,8 +141,3 @@ ros2 run my_robot_sdk task_demo.py
 
 Pull requests and improvements are welcome. The project is structured so each subsystem can be extended independently.
 
----
-
-## License
-
-Add your chosen license here.
