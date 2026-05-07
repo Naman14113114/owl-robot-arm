@@ -36,7 +36,7 @@ This project is organized as a clean robotics pipeline:
 - Visualization launch file
 
 <!-- VISUAL 2: RViz robot model screenshot -->
-#### Insert here
+
 ![alt text](image.png) 
  *Robot model rendered from the description package.*
 
@@ -53,9 +53,9 @@ This project is organized as a clean robotics pipeline:
 - MoveIt launch files
 
 <!-- VISUAL 3: MoveIt planning scene screenshot -->
-#### Insert here
-**Needed:** screenshot of MoveIt running in RViz with planning scene visible.  
-**Best caption:** *MoveIt planning scene and motion goal execution.*
+
+![alt text](<Screencast from 2026-05-07 15-05-56.gif>)
+*MoveIt planning scene and motion goal execution.*
 
 ---
 
@@ -65,7 +65,7 @@ This project is organized as a clean robotics pipeline:
 - Session RViz config
 
 <!-- VISUAL 4: terminal + RViz + Gazebo combo -->
-#### Insert here
+
 ![alt text](image-1.png)
 *End-to-end system bringup in one session.*
 
@@ -77,8 +77,9 @@ This project is organized as a clean robotics pipeline:
 - Task demo script
 
 <!-- VISUAL 5: terminal output or script demo -->
-#### Insert here
+
 ![alt text](image-2.png)
+![alt text](image-3.png)
 *Python SDK driving motion commands.*
 
 ---
@@ -112,7 +113,9 @@ Your provided architecture shows how the model package feeds the MoveIt config, 
 
 <!-- VISUAL 6: simplified flow diagram -->
 ### Insert here
-**Needed:** a simplified horizontal flow graphic: `SDK → Bringup → MoveIt → Controllers → Robot`.  
+`SDK → Bringup → MoveIt → Controllers → Robot`
+RQT Graph
+![alt text](image-4.png) 
 *Command flow from Python to physical or simulated motion.*
 
 ---
@@ -148,7 +151,7 @@ Use these assets to make the README feel complete:
 - **Terminal strip** — launch logs and success output
 
 <!-- VISUAL 7: demo GIF -->
-#### Insert here
+
 **Needed:** short GIF of the robot executing a planned motion.  
 **Best caption:** *Motion demo from a scripted task.*
 
