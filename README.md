@@ -21,7 +21,6 @@ This project is organized as a clean robotics pipeline:
 
 <!-- VISUAL 1: full architecture diagram -->
 ### Architecture at a Glance
-![System architecture](docs/assets/robot_stack_architecture.png)
 
 ![alt text](diagram.png)
 
