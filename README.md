@@ -109,7 +109,7 @@ src/
 
 The packages are intentionally separated so each layer can be tested independently before the full integration.
 
-Your provided architecture shows how the model package feeds the MoveIt config, how bringup orchestrates the runtime, and how the SDK talks to the planning/execution layer. fileciteturn0file0
+The provided architecture shows how the model package feeds the MoveIt config, how bringup orchestrates the runtime, and how the SDK talks to the planning/execution layer.
 
 <!-- VISUAL 6: simplified flow diagram -->
 ### Insert here
@@ -136,45 +136,6 @@ ros2 launch my_robot_bringup simstack_bringup.launch.py
 ```bash
 ros2 run my_robot_sdk task_demo.py
 ```
-
----
-
-## Recommended Screenshots and Media
-
-Use these assets to make the README feel complete:
-
-- **Top banner image** — a wide hero shot or rendered robot image
-- **Architecture diagram** — the package flow visual
-- **RViz screenshot** — planning scene and robot state
-- **Gazebo screenshot** — the simulated robot in motion
-- **Execution GIF** — moving from pose A to pose B
-- **Terminal strip** — launch logs and success output
-
-<!-- VISUAL 7: demo GIF -->
-
-**Needed:** short GIF of the robot executing a planned motion.  
-**Best caption:** *Motion demo from a scripted task.*
-
----
-
-## Suggested Animated Demo Ideas
-
-- A short GIF showing **launch → plan → execute**
-- A split-screen clip of **RViz planning on one side and Gazebo motion on the other**
-- A looped GIF of the robot returning to a **home pose**
-- A before/after comparison of **planning goal set vs. trajectory executed**
-
----
-
-## Design Notes
-
-- Keep the README visually spaced out.
-- Use one strong diagram near the top.
-- Add screenshots only where they explain the layer being described.
-- Keep code blocks short and practical.
-- Prefer captions over long paragraphs under images.
-
----
 
 ## Contributing
 
