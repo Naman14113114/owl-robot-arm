@@ -37,8 +37,8 @@ This project is organized as a clean robotics pipeline:
 
 <!-- VISUAL 2: RViz robot model screenshot -->
 #### Insert here
-**Needed:** clean RViz screenshot of the robot loaded from the description package.  
-**Best caption:** *Robot model rendered from the description package.*
+![alt text](image.png) 
+ *Robot model rendered from the description package.*
 
 ---
 
@@ -66,8 +66,8 @@ This project is organized as a clean robotics pipeline:
 
 <!-- VISUAL 4: terminal + RViz + Gazebo combo -->
 #### Insert here
-**Needed:** one wide screenshot showing terminal logs, Gazebo, and RViz together.  
-**Best caption:** *End-to-end system bringup in one session.*
+![alt text](image-1.png)
+*End-to-end system bringup in one session.*
 
 ---
 
@@ -78,8 +78,8 @@ This project is organized as a clean robotics pipeline:
 
 <!-- VISUAL 5: terminal output or script demo -->
 #### Insert here
-**Needed:** terminal screenshot or code snippet showing a Python command controlling the robot.  
-**Best caption:** *Python SDK driving motion commands.*
+![alt text](image-2.png)
+*Python SDK driving motion commands.*
 
 ---
 
