@@ -29,7 +29,7 @@ This project is organized as a clean robotics pipeline:
 ## What This Project Contains
 
 ### Robot Description
-- URDF/Xacro robot model
+- URDF/Xacro robot model of RV5AS 6-DOF Robotic Arm
 - Meshes and geometry assets
 - Gazebo simulation config
 - ROS ↔ Gazebo bridge config
