@@ -1,6 +1,6 @@
 # ROS 2 Robot Arm Simulation & Control Stack
 
-A modular ROS 2-based robotic arm ecosystem integrating **robot description, Gazebo simulation, MoveIt motion planning, bringup orchestration, and a Python SDK**.
+A modular ROS 2-based robotic arm, specifically the RV5AS 6-DOF robotic arm by Mitsubishi,  ecosystem integrating **robot description, Gazebo simulation, MoveIt motion planning, bringup orchestration, and a Python SDK**.
 
 ![ROS 2](https://img.shields.io/badge/ROS%202-ready-blue)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
